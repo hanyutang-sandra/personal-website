@@ -1,4 +1,5 @@
 import Projects from './projects';
+import Intro from './intro';
 
 function Home() {
   return(
@@ -7,8 +8,9 @@ function Home() {
         <Nav />
       </header>
 
-      <main className="p-24 pt-80">
-        <Projects/>
+      <main className="pl-16 pr-16">
+        <Intro />
+        <Projects />
       </main>
 
       <footer className="bg-white">
