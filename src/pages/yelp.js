@@ -16,7 +16,7 @@ function Yelp() {
                 <T.SingleSectionBlockDark>
                     <T.SectionTitle title='Product features' />
                     <T.SingleProjectBlock>
-                        <T.SideImg src='/yelp_refinement.png' />
+                        <T.SideImgVertical src='/yelp_refinement.png' />
                         <T.Paragraph text={C.grid}/>
                     </T.SingleProjectBlock>
 
@@ -34,7 +34,7 @@ function Yelp() {
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImg src='/memoryGraph_sample.png' />
+                        <T.SideImgHorizontal src='/memoryGraph_sample.png' />
                         <T.Paragraph text={C.memoryLeak} />
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
@@ -43,7 +43,7 @@ function Yelp() {
                     <T.SectionTitle title='Obervability'/>
 
                     <T.SingleProjectBlockReversed>
-                        <T.SideImg src='/splunk_sample.png' />
+                        <T.SideImgHorizontal src='/splunk_sample.png' />
                         <T.Paragraph text={C.splunk}/>
                     </T.SingleProjectBlockReversed>
 

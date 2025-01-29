@@ -11,7 +11,7 @@ export const PageHeader = ({bgColor, svgSrc}) => (
 export const IntroSection = ({svgSrc, svgAlt, text}) => (
     <div className="intro p-72 pt-24 pb-0 flex items-center justify-end content-center space-x-36">
         <SVG src={svgSrc} width="500" height="500" alt={svgAlt} priority={true} className="h-auto items-center justify-center content-center"></SVG>
-        <h3 className="text-base font-light text-gray-900 leading-relaxed">
+        <h3 className="text-base font-normal text-gray-900 leading-relaxed">
             {text}
         </h3>
     </div>
@@ -43,7 +43,8 @@ export const SingleProjectBlockReversed = ({children}) => (
 /// In-block components
 export const BetweenProjectSpace = () => (<div className="w-full h-auto mt-16 pt-8 pb-8"/>)
 export const Paragraph = ({text}) => (<h3 className="text-base font-light text-gray-900 leading-relaxed">{text}</h3>)
-export const SideImg = ({src}) => (<SVG src={src} width="300" height="400" alt="Grid component" priority={true} className="h-auto"/>)
+export const SideImgVertical = ({src}) => (<SVG src={src} width="500" height="500" alt="Grid component" priority={true} className="h-full"/>)
+export const SideImgHorizontal = ({src}) => (<SVG src={src} width="500" height="500" alt="Grid component" priority={true} className="w-full"/>)
 export const SideVideo = ({src}) => (
     <video width="300" height="400" controls>
         <source src={src} type="video/mp4"/>
