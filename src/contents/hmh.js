@@ -55,7 +55,7 @@ export const finalProduct = (
 
 export const AR = (
     <>
-        See the object in real life by scanning a QR code and pointing the phone camera at the word. Built using <b className='font-semibold'>Aframe</b> for easy web AR experience and open source 3D models.
+        See what the word means in real life by scanning a QR code and pointing the phone camera at the word. Built using <b className='font-semibold'>Aframe</b> for easy web AR experience and open source 3D models.
         <br /><br />
         Test it out by following the instructions <a href='https://github.com/hanyutang-sandra/AR-prototype/tree/master' className="underline text-sky-700 hover:text-red-700">here</a>.
     </>

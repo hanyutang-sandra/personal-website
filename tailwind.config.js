@@ -9,8 +9,8 @@ module.exports = {
         'yelp-red': '#e00707',
         'otter-blue': '#65cfff',
       },
-      backgroundImage: {
-        'sky': "url('/backdrop.png')",
+      fontFamily: {
+        'poiret': ['Poiret'],
       }
     },
   },

@@ -3,7 +3,7 @@ import SVG from 'next/image';
 /// The page header for each page
 export const PageHeader = ({bgColor, svgSrc}) => (
     <div className={`${bgColor} w-full h-64 flex items-center justify-center content-center`}>
-        <SVG src={svgSrc} width="300" height="200" alt="Yelp logo" priority={true} className="h-auto items-center justify-center content-center"></SVG>
+        <SVG src={svgSrc} width="300" height="200" alt="Header Image" priority={true} className="h-auto items-center justify-center content-center"></SVG>
     </div>
 )
 
@@ -25,7 +25,7 @@ export const SectionTitle = ({title}) => (<h2 className="text-xl font-normal tex
 
 /// Different kinds of Blocks
 export const HighlightsBlock = ({children}) => (
-    <div className="highlights pt-24 flex flex-col items-center justify-end content-center pb-24">{children}</div>
+    <div className="highlights pt-24 flex flex-col items-center justify-end content-center">{children}</div>
 )
 export const SingleSectionBlockDark = ({children}) => (
     <div className="bg-stone-50 mt-16 pt-8 pb-8">{children}</div>
