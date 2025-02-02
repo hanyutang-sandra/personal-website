@@ -6,7 +6,7 @@ function PersonalProjects() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []); 
-    
+
     return (
         <>
             <T.PageHeader bgColor="bg-violet-400" svgSrc='/GourdyMeSimpsonsWide.png' />
@@ -26,8 +26,6 @@ function PersonalProjects() {
                         <T.SideImgVertical src='/portfolioMock.png' />
                         <T.Paragraph text={C.portfolio}/>
                     </T.SingleProjectBlock>
-
-                    <T.SectionFootnote text={C.productProjectsFootnote}/>
                 </T.SingleSectionBlockLight>
 
                 <T.SingleSectionBlockDark>
