@@ -14,7 +14,7 @@ function HMH() {
                 <T.SingleSectionBlockLight>
                     <T.SectionTitle title='Team Website' />
                     <T.SingleProjectBlock>
-                        <T.SideImgHorizontal src='/Otter Website.png' />
+                        <T.SideImgHorizontal src='/OtterWebsiteMock.png' />
                         <T.Paragraph text={C.teamWebsite}/>
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
@@ -22,7 +22,7 @@ function HMH() {
                 <T.SingleSectionBlockDark>
                     <T.SectionTitle title='Final Product' />
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='/hablame.png' />
+                        <T.SideImgHorizontal src='/hablameMock.png' />
                         <T.Paragraph text={C.finalProduct}/>
                     </T.SingleProjectBlockReversed>
                 </T.SingleSectionBlockDark>
@@ -38,7 +38,7 @@ function HMH() {
                     <T.BetweenProjectSpace/>
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='/ASR.png' />
+                        <T.SideImgHorizontal src='/ASRMock.png' />
                         <T.Paragraph text={C.ASR}/>
                     </T.SingleProjectBlockReversed>
                 </T.SingleSectionBlockLight>

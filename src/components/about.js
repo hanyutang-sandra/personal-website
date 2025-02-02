@@ -10,9 +10,9 @@ function AboutMe() {
 
             <T.HighlightsBlock>
                 <T.SingleSectionBlockLight>
-                    <h2 className="text-lg font-light text-gray-900 leading-relaxe pl-72 pr-72 -mt-56">{C.aboutMe}</h2>
+                    <h2 className="text-lg font-light text-gray-900 leading-relaxe pl-8 xl:pl-72 md:pl-40 sm:pl-24 pr-8 xl:pr-72 md:pr-40 sm:pr-24 -mt-36 lg:-mt-56">{C.aboutMe}</h2>
                     <T.BetweenProjectSpace/>
-                    <h2 className="text-lg font-light text-gray-900 leading-relaxe pl-72 pr-72 -mt-24">{C.connect}</h2>
+                    <h2 className="text-lg font-light text-gray-900 leading-relaxe pl-8 xl:pl-72 md:pl-40 sm:pl-24 pr-8 xl:pr-72 md:pr-40 sm:pr-24 -mt-20 lg:-mt-24">{C.connect}</h2>
                 </T.SingleSectionBlockLight>
             </T.HighlightsBlock>
         </>

@@ -11,14 +11,14 @@ function PersonalProjects() {
                     <T.SectionTitle title='Web' />
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgVertical src='/blog.png' />
+                        <T.SideImgVertical src='/blogMock.png' />
                         <T.Paragraph text={C.blog}/>
                     </T.SingleProjectBlockReversed>
 
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImgVertical src='/portfolio.png' />
+                        <T.SideImgVertical src='/portfolioMock.png' />
                         <T.Paragraph text={C.portfolio}/>
                     </T.SingleProjectBlock>
 

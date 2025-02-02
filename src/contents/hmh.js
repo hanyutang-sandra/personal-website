@@ -30,7 +30,7 @@ export const teamWebsite = (
 
 export const finalProduct = (
     <>
-        The final product developed by Team Otter is a sophisticated and innovative educational tool designed to enhance speaking and listening fluency in Spanish as a second language. 
+        The final product developed by Team Otter is an innovative educational tool designed to enhance speaking and listening fluency in Spanish as a second language for K-12 students. 
         Named <b className='font-semibold'>"Háblame,"</b> which translates to "Talk to me" in English, this project utilizes cutting-edge technologies to create an immersive and interactive learning environment.
         
         <br/><br/>
@@ -45,8 +45,8 @@ export const finalProduct = (
         <b className="font-semibold">Feedback and Scaffolding: </b> Provides detailed insights into completion and performance, while scaffolding tools such as re-prompting, hints, and modeling guide learners through the educational material.
 
         <br /><br />
-        To support these capabilities, we leveraged several technologies, including <b className='font-semibold'>AnnyangJS</b> for Automatic Speech Recognition, 
-        <b className='font-semibold'>H5P</b> Interactive Video Modules on top of <b className='font-semibold'>Drupal 7 CMS with PHP</b> along with multiple open source plugins for animations and authentication purposes.
+        To support these capabilities, we leveraged several technologies, including <b className='font-semibold'>AnnyangJS</b> for Automatic Speech Recognition, <b className='font-semibold'>H5P</b> Interactive Video 
+        Modules on top of <b className='font-semibold'>Drupal 7 CMS with PHP</b> along with multiple open source plugins for animations and authentication purposes.
 
         <br /><br />
         The final product was delivered to HMH in Auguest, 2019. Click <a href='https://drive.google.com/file/d/1J14HqxzC31dZh46HNulneD-AGFZcxvhf/view?usp=drive_link' className="underline text-sky-700 hover:text-red-700">here</a> to check out the final presentation of the product before delivery.
@@ -55,7 +55,7 @@ export const finalProduct = (
 
 export const AR = (
     <>
-        See what the word means in real life by scanning a QR code and pointing the phone camera at the word. Built using <b className='font-semibold'>Aframe</b> for easy web AR experience and open source 3D models.
+        Discover the meaning of Spanish words in real life by scanning a mark with your phone. Built using <b className='font-semibold'>Aframe</b> for easy web AR experience and open source 3D models.
         <br /><br />
         Test it out by following the instructions <a href='https://github.com/hanyutang-sandra/AR-prototype/tree/master' className="underline text-sky-700 hover:text-red-700">here</a>.
     </>
@@ -69,7 +69,7 @@ export const ASR = (
         <br /><br />
 
         <i className='text-sm font-light text-gray-900 leading-relaxed italic pt-16'>
-            Please refrain from using it extensively as this service is not free.
+            *Please refrain from using it extensively as this service is not free.
         </i>
     </>
 )

@@ -39,7 +39,7 @@ function Yelp() {
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImgHorizontal src='/memoryGraph.png' />
+                        <T.SideImgHorizontal src='/memoryGraphMock.png' />
                         <T.Paragraph text={C.memoryLeak} />
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
@@ -48,7 +48,7 @@ function Yelp() {
                     <T.SectionTitle title='Obervability'/>
 
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='/splunk_sample.png' />
+                        <T.SideImgHorizontal src='/splunkMock.png' />
                         <T.Paragraph text={C.splunk}/>
                     </T.SingleProjectBlockReversed>
 
