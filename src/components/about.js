@@ -1,7 +1,12 @@
 import * as T from '../templates';
 import * as C from '../contents/about';
+import { useEffect } from 'react';
 
 function AboutMe() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); 
+    
     return (
         <>
             <div className="bg-while w-full h-dvh flex items-center justify-center content-center -mt-20">

@@ -43,8 +43,8 @@ export const SingleProjectBlockReversed = ({children}) => (
 /// In-block components
 export const BetweenProjectSpace = () => (<div className="w-full h-auto mt-16 pt-8 pb-8"/>)
 export const Paragraph = ({text}) => (<h3 className="text-base font-light text-gray-900 leading-relaxed">{text}</h3>)
-export const SideImgVertical = ({src}) => (<SVG src={src} width="500" height="500" alt="Grid component" className="h-1/2 lg:h-full"/>)
-export const SideImgHorizontal = ({src}) => (<SVG src={src} width="500" height="500" alt="Grid component" className="w-1/2 lg:w-full"/>)
+export const SideImgVertical = ({src}) => (<SVG src={src} width="500" height="500" alt="Side Image" className="h-1/2 lg:h-full"/>)
+export const SideImgHorizontal = ({src}) => (<SVG src={src} width="500" height="500" alt="Side Image" className="w-1/2 lg:w-full"/>)
 export const SideVideo = ({src}) => (
     <video width="300" height="400" controls>
         <source src={src} type="video/mp4"/>

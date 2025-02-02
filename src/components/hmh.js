@@ -1,7 +1,12 @@
 import * as T from '../templates';
 import * as C from '../contents/hmh';
+import { useEffect } from 'react';
 
 function HMH() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); 
+    
     return (
         <>
             <T.PageHeader bgColor="bg-otter-blue" svgSrc='/cmu+hmh.png' />

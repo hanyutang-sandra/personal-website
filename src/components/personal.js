@@ -1,7 +1,12 @@
 import * as T from '../templates';
 import * as C from '../contents/personal';
+import { useEffect } from 'react';
 
 function PersonalProjects() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); 
+    
     return (
         <>
             <T.PageHeader bgColor="bg-violet-400" svgSrc='/GourdyMeSimpsonsWide.png' />

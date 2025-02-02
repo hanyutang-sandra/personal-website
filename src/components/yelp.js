@@ -1,7 +1,12 @@
 import * as T from '../templates';
 import * as C from '../contents/yelp';
+import { useEffect } from 'react';
 
 function Yelp() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); 
+
     return (
         <>
             <T.PageHeader bgColor="bg-yelp-red" svgSrc='/yelp_logo_dark_bg.svg' />

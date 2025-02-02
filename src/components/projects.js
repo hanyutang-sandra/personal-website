@@ -1,8 +1,11 @@
 import SVG from 'next/image';
-import Link from 'next/link';
+import { useEffect } from 'react';
 
 function Projects({setCurrentContent}) {
-    console.log(setCurrentContent)
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); 
+    
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-2 gap-16 h-dvh -mt-40">
             <div onClick={(e) => {
