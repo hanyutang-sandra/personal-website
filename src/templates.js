@@ -10,7 +10,7 @@ export const PageHeader = ({bgColor, src}) => (
 // The intro sction for each page
 export const IntroSection = ({src, alt, text}) => (
     <div className="intro p-8 pt-24 pb-0 xl:pl-72 md:pl-40 sm:pl-24 xl:pr-72 md:pr-40 sm:pr-24 flex flex-col lg:flex-row items-center justify-end content-center space-y-0 lg:space-x-36">
-        <Image src={src} width="500" height="500" alt={alt} className="h-auto items-center justify-center content-center hidden lg:inline"></Image>
+        <Image src={src} width="300" height="300" alt={alt} className="h-auto items-center justify-center content-center hidden lg:inline"></Image>
         <h3 className="text-base font-normal text-gray-900 leading-relaxed">
             {text}
         </h3>
