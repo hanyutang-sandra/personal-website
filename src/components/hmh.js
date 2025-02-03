@@ -6,12 +6,12 @@ function HMH() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []); 
-    
+
     return (
         <>
-            <T.PageHeader bgColor="bg-otter-blue" svgSrc='/cmu+hmh.png' />
+            <T.PageHeader bgColor="bg-otter-blue" src='/cmu+hmh.png' />
 
-            <T.IntroSection svgSrc='/HMH_logo.png' svgAlt="HMH Logo" text={C.introSection} />
+            <T.IntroSection src='/HMH_logo.png' alt="HMH Logo" text={C.introSection} />
 
             <T.HighlightsBlock>
                 <T.HighlightsTitle title='Project Highlights'/>

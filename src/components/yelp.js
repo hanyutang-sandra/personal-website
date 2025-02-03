@@ -9,9 +9,9 @@ function Yelp() {
 
     return (
         <>
-            <T.PageHeader bgColor="bg-yelp-red" svgSrc='/yelp_logo_dark_bg.svg' />
+            <T.PageHeader bgColor="bg-yelp-red" src='/yelpLogo.png' />
 
-            <T.IntroSection svgSrc='/yelp_burst.svg' svgAlt="Yelp Logo" text={C.introSection} />
+            <T.IntroSection src='/yelpBurst.png' alt="Yelp Logo" text={C.introSection} />
 
             <T.HighlightsBlock>
                 <T.HighlightsTitle title='Project Highlights'/>

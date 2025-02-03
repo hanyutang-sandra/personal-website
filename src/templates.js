@@ -1,16 +1,16 @@
-import SVG from 'next/image';
+import Image from 'next/image';
 
 /// The page header for each page
-export const PageHeader = ({bgColor, svgSrc}) => (
+export const PageHeader = ({bgColor, src}) => (
     <div className={`${bgColor} w-full h-64 flex items-center justify-center content-center`}>
-        <SVG src={svgSrc} width="300" height="200" alt="Header Image" className="h-auto items-center justify-center content-center"></SVG>
+        <Image src={src} width="300" height="200" alt="Header Image" className="h-auto items-center justify-center content-center"></Image>
     </div>
 )
 
 // The intro sction for each page
-export const IntroSection = ({svgSrc, svgAlt, text}) => (
+export const IntroSection = ({src, alt, text}) => (
     <div className="intro p-8 pt-24 pb-0 xl:pl-72 md:pl-40 sm:pl-24 xl:pr-72 md:pr-40 sm:pr-24 flex flex-col lg:flex-row items-center justify-end content-center space-y-0 lg:space-x-36">
-        <SVG src={svgSrc} width="500" height="500" alt={svgAlt} className="h-auto items-center justify-center content-center hidden lg:inline"></SVG>
+        <Image src={src} width="500" height="500" alt={alt} className="h-auto items-center justify-center content-center hidden lg:inline"></Image>
         <h3 className="text-base font-normal text-gray-900 leading-relaxed">
             {text}
         </h3>
@@ -43,8 +43,8 @@ export const SingleProjectBlockReversed = ({children}) => (
 /// In-block components
 export const BetweenProjectSpace = () => (<div className="w-full h-auto mt-16 pt-8 pb-8"/>)
 export const Paragraph = ({text}) => (<h3 className="text-base font-light text-gray-900 leading-relaxed">{text}</h3>)
-export const SideImgVertical = ({src}) => (<SVG src={src} width="500" height="500" alt="Side Image" className="h-1/2 lg:h-full"/>)
-export const SideImgHorizontal = ({src}) => (<SVG src={src} width="500" height="500" alt="Side Image" className="w-1/2 lg:w-full"/>)
+export const SideImgVertical = ({src}) => (<Image src={src} width="500" height="500" alt="Side Image" className="h-1/2 lg:h-full"/>)
+export const SideImgHorizontal = ({src}) => (<Image src={src} width="500" height="500" alt="Side Image" className="w-1/2 lg:w-full"/>)
 export const SideVideo = ({src}) => (
     <video width="300" height="400" controls>
         <source src={src} type="video/mp4"/>

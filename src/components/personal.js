@@ -9,7 +9,7 @@ function PersonalProjects() {
 
     return (
         <>
-            <T.PageHeader bgColor="bg-violet-400" svgSrc='/GourdyMeSimpsonsWide.png' />
+            <T.PageHeader bgColor="bg-violet-400" src='/GourdyMeSimpsonsWide.png' />
 
             <T.HighlightsBlock>
                 <T.SingleSectionBlockLight>
