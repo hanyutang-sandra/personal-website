@@ -7,7 +7,7 @@ function Projects({setCurrentContent}) {
     }, []); 
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-2 gap-16 h-dvh -mt-40">
+        <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-3 lg:grid-rows-2 gap-16 h-screen -mt-40">
             <div onClick={(e) => {
                 e.preventDefault();
                 setCurrentContent("yelp");

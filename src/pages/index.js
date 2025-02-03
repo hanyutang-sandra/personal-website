@@ -6,6 +6,7 @@ import HMH from '@/components/hmh';
 import PersonalProjects from '@/components/personal';
 import AboutMe from '@/components/about';
 import { useState } from 'react';
+import Image from 'next/image';
 
 function Home() {
   const [currentContent, setCurrentContent] = useState('projects');
@@ -14,10 +15,10 @@ function Home() {
     switch (currentContent) {
       case 'projects':
         return (
-        <>
+        <div className="z-10 relative">
           <Intro/>
           <Projects setCurrentContent={setCurrentContent}/>
-        </>
+        </div>
       )
       case 'yelp':
         return <Yelp />;
@@ -53,12 +54,13 @@ function Home() {
 
   return(
     <>
-      <header className={`bg-white fixed h-16 w-dvw drop-shadow-md flex flex-row items-center ${currentContent === 'projects' || currentContent === 'about' ? `justify-end` : `justify-between`} content-center`}>
+      <header className={`bg-white fixed top-0 z-50 h-16 w-dvw drop-shadow-md flex flex-row items-center ${currentContent === 'projects' || currentContent === 'about' ? `justify-end` : `justify-between`} content-center`}>
           {renderBackButton(currentContent)}
           <Nav className="flex-end" leadingAlignment={false} currentContent={currentContent} setCurrentContent={setCurrentContent}/>
       </header>
 
-      <main className= {`h-auto w-full pt-16 ${currentContent == "projects"? `bg-[url(/public/backdrop.png)] pl-16 pr-16 pb-8` : `bg-white p-0`} bg-center`}>
+      <main className= {`h-auto w-full pt-16 bg-white ${currentContent == "projects"? `pl-16 pr-16 pb-8` : `p-0`} bg-center`}>
+        <Image src="backdrop.png" width="100" height="100" className={`h-screen w-full ${currentContent == "projects"? `block absolute top-16 left-0 right-0` : `hidden`} `}></Image>
         {renderMainContent(setCurrentContent)}
       </main>
 
