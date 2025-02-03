@@ -58,7 +58,7 @@ function Home() {
           <Nav className="flex-end" leadingAlignment={false} currentContent={currentContent} setCurrentContent={setCurrentContent}/>
       </header>
 
-      <main className= {`h-auto w-full pt-16 ${currentContent == "projects"? `bg-[url(/backdrop.png)] pl-16 pr-16 pb-8` : `bg-white p-0`} bg-center`}>
+      <main className= {`h-auto w-full pt-16 ${currentContent == "projects"? `bg-[url(/public/backdrop.png)] pl-16 pr-16 pb-8` : `bg-white p-0`} bg-center`}>
         {renderMainContent(setCurrentContent)}
       </main>
 
