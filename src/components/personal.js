@@ -9,21 +9,21 @@ function PersonalProjects() {
 
     return (
         <>
-            <T.PageHeader bgColor="bg-violet-400" src='/GourdyMeSimpsonsWide.png' />
+            <T.PageHeader bgColor="bg-violet-400" src='GourdyMeSimpsonsWide.png' />
 
             <T.HighlightsBlock>
                 <T.SingleSectionBlockLight>
                     <T.SectionTitle title='Web' />
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgVertical src='/blogMock.png' />
+                        <T.SideImgVertical src='blogMock.png' />
                         <T.Paragraph text={C.blog}/>
                     </T.SingleProjectBlockReversed>
 
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImgVertical src='/portfolioMock.png' />
+                        <T.SideImgVertical src='portfolioMock.png' />
                         <T.Paragraph text={C.portfolio}/>
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
