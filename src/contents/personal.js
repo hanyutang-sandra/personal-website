@@ -13,7 +13,7 @@ export const portfolio = (
         Highlights course projects I have done at CMU.
 
         <br/><br/>
-        Check it out <a href="https://hanyutang-sandra.site/" className="underline text-sky-700 hover:text-red-700">here</a>.
+        Check it out <a href="https://archived.hanyutang-sandra.site/" className="underline text-sky-700 hover:text-red-700">here</a>.
     </>
 )
 
