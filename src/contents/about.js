@@ -3,11 +3,11 @@ export const aboutMe = (
         Hello there! Thanks for visiting my website! My name is <b className='font-semibold'>Hanyu Tang</b>, 
         and the pup sitting with me is my rescue dog <b className='font-semibold'>Gourdy</b>, who came to me on a warm bay area early autumn day.
         <br/><br/>
-        I’m a <b className='font-semibold'>Software Engineer</b> currently based in Toronto, Canada, but I have also worked in Pittsburgh and San Francisco previously.
+        I’m a <b className='font-semibold'>Senior Software Engineer</b> currently based in London, United Kingdom, but I have also worked in Pittsburgh, San Francisco and Toronto previously.
         I primarily focus on <b className='font-semibold'>iOS development</b>, though I dabble in backend, web and various technologies from time to time.
         <br/><br/>
         When I'm not working or building hobby projects, I enjoy digital painting, Lyra, crochet and playing a few songs on my keyboard. 
-        Of course when the weather is right you will always find me taking long slow walks along the shorelines of Lake Ontario with Gourdy.  
+        Of course when the weather is right you will always find me taking long slow walks along the shorelines of the River Thames with Gourdy.  
     </>
 )
 

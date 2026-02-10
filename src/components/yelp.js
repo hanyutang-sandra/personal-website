@@ -9,9 +9,9 @@ function Yelp() {
 
     return (
         <>
-            <T.PageHeader bgColor="bg-yelp-red" src='yelpLogo.png' />
+            <T.PageHeader bgColor="bg-yelp-red" src='/yelpLogo.png' />
 
-            <T.IntroSection src='yelpBurst.png' alt="Yelp Logo" text={C.introSection} />
+            <T.IntroSection src='/yelpBurst.png' alt="Yelp Logo" text={C.introSection} />
 
             <T.HighlightsBlock>
                 <T.HighlightsTitle title='Project Highlights'/>
@@ -19,14 +19,14 @@ function Yelp() {
                     <T.SectionTitle title='Product features' />
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgVertical src='yelp-videos.png' />
+                        <T.SideImgVertical src='/yelp-videos.png' />
                         <T.Paragraph text={C.videos}/>
                     </T.SingleProjectBlockReversed>
 
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImgVertical src='yelp_refinement.png' />
+                        <T.SideImgVertical src='/yelp_refinement.png' />
                         <T.Paragraph text={C.grid}/>
                     </T.SingleProjectBlock>
 
@@ -37,14 +37,14 @@ function Yelp() {
                     <T.SectionTitle title='Platform Improvements'/>
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideVideo src='personal-website/yelp_vo.mp4' />
+                        <T.SideVideo src='/yelp_vo.mp4' />
                         <T.Paragraph text={C.a11y}/>
                     </T.SingleProjectBlockReversed>
 
                     <T.BetweenProjectSpace/>
 
                     <T.SingleProjectBlock>
-                        <T.SideImgHorizontal src='memoryGraphMock.png' />
+                        <T.SideImgHorizontal src='/memoryGraphMock.png' />
                         <T.Paragraph text={C.memoryLeak} />
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
@@ -53,7 +53,7 @@ function Yelp() {
                     <T.SectionTitle title='Obervability'/>
 
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='splunkMock.png' />
+                        <T.SideImgHorizontal src='/splunkMock.png' />
                         <T.Paragraph text={C.splunk}/>
                     </T.SingleProjectBlockReversed>
 

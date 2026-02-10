@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://hanyutang-sandra.github.io/personal-website/",
+  "homepage": "https://hanyutang-sandra.site",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
-    "next": "14.2.21",
+    "next": "^14.2.35",
     "react": "^18",
     "react-dom": "^18"
   },

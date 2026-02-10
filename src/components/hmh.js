@@ -9,9 +9,9 @@ function HMH() {
 
     return (
         <>
-            <T.PageHeader bgColor="bg-otter-blue" src='cmu+hmh.png' />
+            <T.PageHeader bgColor="bg-otter-blue" src='/cmu+hmh.png' />
 
-            <T.IntroSection src='HMH_logo.png' alt="HMH Logo" text={C.introSection} />
+            <T.IntroSection src='/HMH_logo.png' alt="HMH Logo" text={C.introSection} />
 
             <T.HighlightsBlock>
                 <T.HighlightsTitle title='Project Highlights'/>
@@ -19,7 +19,7 @@ function HMH() {
                 <T.SingleSectionBlockLight>
                     <T.SectionTitle title='Team Website' />
                     <T.SingleProjectBlock>
-                        <T.SideImgHorizontal src='OtterWebsiteMock.png' />
+                        <T.SideImgHorizontal src='/OtterWebsiteMock.png' />
                         <T.Paragraph text={C.teamWebsite}/>
                     </T.SingleProjectBlock>
                 </T.SingleSectionBlockLight>
@@ -27,7 +27,7 @@ function HMH() {
                 <T.SingleSectionBlockDark>
                     <T.SectionTitle title='Final Product' />
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='hablameMock.png' />
+                        <T.SideImgHorizontal src='/hablameMock.png' />
                         <T.Paragraph text={C.finalProduct}/>
                     </T.SingleProjectBlockReversed>
                 </T.SingleSectionBlockDark>
@@ -36,14 +36,14 @@ function HMH() {
                     <T.SectionTitle title='Other Explorations' />
                     
                     <T.SingleProjectBlock>
-                        <T.SideImgHorizontal src='testingAR.png' />
+                        <T.SideImgHorizontal src='/testingAR.png' />
                         <T.Paragraph text={C.AR}/>
                     </T.SingleProjectBlock>
                     
                     <T.BetweenProjectSpace/>
                     
                     <T.SingleProjectBlockReversed>
-                        <T.SideImgHorizontal src='ASRMock.png' />
+                        <T.SideImgHorizontal src='/ASRMock.png' />
                         <T.Paragraph text={C.ASR}/>
                     </T.SingleProjectBlockReversed>
                 </T.SingleSectionBlockLight>

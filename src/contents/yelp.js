@@ -27,7 +27,8 @@ export const videos = (
         On the iOS client, we leveraged native <b className='font-semibold'>AVAssets</b>, supplemented by custom in-house modules, 
         to optimize <b className='font-semibold'>performance, quality, and latency</b>.
         <br/><br/>
-        <i className='text-sm font-light text-gray-900 leading-relaxed italic pt-16'>Checkout <a href="https://hanyutang-sandra.github.io/blog/work/2024/08/02/project-leading-learnings/" className="underline text-sky-700 hover:text-red-700">my blog</a> for my reflections on leading this six-month long project.</i>
+        <i className='text-sm font-light text-gray-900 leading-relaxed italic pt-16'>Checkout <a href="https://hanyutang-sandra.github.io/blog/work/2024/08/02/project-leading-learnings/" className="underline text-sky-700 hover:text-red-700">my blog</a> for my reflections on leading this six-month long project. </i>
+        <i className='text-sm font-light text-gray-900 leading-relaxed italic pt-16'>And <a href="https://blog.yelp.com/news/fall-product-release-2025/?utm_source=yelp_social&utm_campaign=Fall2025Product&utm_medium=organic&utm_content=consumer" className="underline text-sky-700 hover:text-red-700">Yelp's 2025 Fall Product Release</a> for the global rollout. </i>
     </>
 )
 

@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         'yelp-red': '#e00707',
         'otter-blue': '#65cfff',
+        'ddg-orange': '#f05F2b',
+        'ddg-orange-light': '#ff8d5c'
       },
       fontFamily: {
         'poiret': ['Poiret'],

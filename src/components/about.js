@@ -11,7 +11,7 @@ function AboutMe() {
     return (
         <>
             <div className="bg-while w-full h-96 lg:h-svh flex items-start justify-center content-start align-center -mt-8 lg:-mt-72">
-                <Image src="GourdyMe.JPG" width="500" height="100" className="h-auto w-full"></Image>
+                <Image src="/GourdyMe.JPG" width="500" height="100" alt="Hanyu Tang photo" className="h-auto w-full"></Image>
             </div>
 
             <T.HighlightsBlock>
