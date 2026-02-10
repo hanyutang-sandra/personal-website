@@ -13,6 +13,9 @@ function Nav({leadingAlignment}) {
             <Link href="/about" className={`poiret-one-regular text-lg font-thin leading-6 ${isActive('/about') ? `text-gray-900` : `text-gray-400`} hover:text-gray-300`}>
                 About Me
             </Link>
+            <a href="https://blog.hanyutang-sandra.site" target="_blank" rel="noopener noreferrer" className="poiret-one-regular text-lg font-thin leading-6 text-gray-400 hover:text-gray-300">
+                Blog
+            </a>
         </nav>
     )
 }
