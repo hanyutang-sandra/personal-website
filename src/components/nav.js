@@ -6,7 +6,7 @@ function Nav({leadingAlignment}) {
     const isActive = (path) => router.pathname === path;
 
     return (
-        <nav className={`flex items-center ${leadingAlignment ? `justify-start` : `justify-end`} content-center space-x-20 pt-4 pb-4 pr-16 pl-16`}>
+        <nav className={`flex items-center ${leadingAlignment ? `justify-start` : `justify-end`} content-center space-x-4 sm:space-x-12 md:space-x-20 pt-4 pb-4 px-4 sm:px-8 md:px-16`}>
             <Link href="/" className={`poiret-one-regular text-lg font-thin leading-6 ${isActive('/') ? `text-gray-900` : `text-gray-400`} hover:text-gray-300`}>
                 Projects
             </Link>

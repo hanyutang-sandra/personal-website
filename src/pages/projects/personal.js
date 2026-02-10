@@ -18,8 +18,8 @@ function PersonalPage() {
       </Head>
 
       <header className="bg-white fixed top-0 z-50 h-16 w-dvw drop-shadow-md flex flex-row items-center justify-between content-center">
-        <Link href="/" className="pl-8 cursor-pointer text-gray-800 hover:text-gray-300">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.0} stroke="currentColor" className="size-6">
+        <Link href="/" className="pl-4 sm:pl-8 cursor-pointer text-gray-800 hover:text-gray-300 p-2 -m-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.0} stroke="currentColor" className="w-8 h-8 sm:w-6 sm:h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
           </svg>
         </Link>
